@@ -1,0 +1,9 @@
+body{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#cont{
+    text-align: justify;
+    color: #000;
+    border-radius: 10px; 
+}
