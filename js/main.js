@@ -4,7 +4,7 @@ $(document).ready(function(){
     var unit = "metric";
      function getLoc(long, lati, unit){
      $.ajax({
-        url: "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyDBBHt08kMUV0Hj7bPgksLSKX3JPWNTH-8",
+        url: "https://www.googleapis.com/geolocation/v1/geolocate?key='Your API KEY'",
         type: "post",
         dataType: "json",
         contentType: "application/json",
