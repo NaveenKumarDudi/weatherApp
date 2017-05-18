@@ -23,7 +23,7 @@ $(document).ready(function(){
 getLoc(long, lati, unit);
 function getTemp(long, lati, unit){
     $.ajax({
-                     url: "http://api.openweathermap.org/data/2.5/weather?lat=" + lati + "&lon=" + long + "&appid=ba956102bf87f779e576e52368892d73" + "&units=" + unit,
+                     url: "http://api.openweathermap.org/data/2.5/weather?lat=" + lati + "&lon=" + long + "&appid=YOUR API ID" + "&units=" + unit,
                         type: "post",
                         dataType: "json",
                         success: function(data, status){
